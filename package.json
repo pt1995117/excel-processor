@@ -2,6 +2,7 @@
   "name": "excel-processor",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://pt1995117.github.io/excel-processor",
   "dependencies": {
     "@ant-design/icons": "^5.0.0",
     "@testing-library/dom": "^10.4.0",
@@ -27,7 +28,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
