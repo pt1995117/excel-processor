@@ -1,7 +1,8 @@
 import React from 'react';
 import { ConfigProvider } from 'antd';
-import zhCN from 'antd/locale/zh_CN';
+import zhCN from 'antd/es/locale/zh_CN';
 import ExcelProcessor from './components/ExcelProcessor';
+import 'antd/dist/antd.min.css';
 import './App.css';
 
 const App: React.FC = () => {
